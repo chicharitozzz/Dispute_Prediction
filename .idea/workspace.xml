@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba41be93-94ac-4425-98c1-c506964d87c4" name="Default" comment="" />
+    <list default="true" id="ba41be93-94ac-4425-98c1-c506964d87c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arma_pred.py" afterPath="$PROJECT_DIR$/arma_pred.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file leaf-file-name="dispute.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dispute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2646">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="580">
+              <caret line="168" column="6" lean-forward="true" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="55" />
               <folding>
                 <element signature="e#155#173#0" expanded="true" />
                 <element signature="e#574#603#0" expanded="true" />
@@ -29,25 +31,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arma_pred.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arma_pred.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="predapi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/predapi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="121">
               <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#116#148#0" expanded="true" />
                 <element signature="e#402#418#0" expanded="true" />
                 <element signature="e#448#571#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arma_pred.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arma_pred.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding>
+                <element signature="e#117#135#0" expanded="true" />
+                <element signature="e#694#791#0" expanded="true" />
+                <element signature="e#824#1201#0" expanded="true" />
+                <element signature="e#1239#1653#0" expanded="true" />
+                <element signature="e#1713#2072#0" expanded="true" />
+                <element signature="e#2135#2311#0" expanded="true" />
+                <element signature="e#2370#2700#0" expanded="true" />
+                <element signature="e#2758#2898#0" expanded="true" />
+                <element signature="e#2954#3465#0" expanded="true" />
+                <element signature="e#3526#4065#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +78,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>oracle</find>
+      <find>print</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -79,12 +96,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1440" />
-    <option name="y" value="369" />
-    <option name="width" value="1238" />
-    <option name="height" value="695" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="210" />
+    <option name="y" value="79" />
+    <option name="width" value="1548" />
+    <option name="height" value="869" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -131,7 +149,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../newcode/newcode2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dispute.py" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dispute.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -150,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newcode2">
+  <component name="RunManager" selected="Python.arma_pred">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +187,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ali" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="arma_pred" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,7 +199,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Dispute_Prediction" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ali.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arma_pred.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,18 +257,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.dispute" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ali" />
-      <item index="2" class="java.lang.String" itemvalue="Python.1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.predapi" />
-      <item index="4" class="java.lang.String" itemvalue="Python.newcode2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.predapi" />
+      <item index="3" class="java.lang.String" itemvalue="Python.newcode2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.arma_pred" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.newcode2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.predapi" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dispute" />
-        <item index="3" class="java.lang.String" itemvalue="Python.1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ali" />
+        <item index="0" class="java.lang.String" itemvalue="Python.arma_pred" />
+        <item index="1" class="java.lang.String" itemvalue="Python.newcode2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.predapi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dispute" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -270,19 +289,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="1" width="1936" height="1096" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3772776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34190783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13229166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -321,7 +340,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -529,18 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/predapi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#116#148#0" expanded="true" />
-            <element signature="e#402#418#0" expanded="true" />
-            <element signature="e#448#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../newcode/newcode2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -551,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dispute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2646">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state relative-caret-position="580">
+          <caret line="168" column="6" lean-forward="true" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="55" />
           <folding>
             <element signature="e#155#173#0" expanded="true" />
             <element signature="e#574#603#0" expanded="true" />
@@ -565,11 +572,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/predapi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#116#148#0" expanded="true" />
+            <element signature="e#402#418#0" expanded="true" />
+            <element signature="e#448#571#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/时间序列预测流程.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arma_pred.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="528">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="e#117#135#0" expanded="true" />
+            <element signature="e#694#791#0" expanded="true" />
+            <element signature="e#824#1201#0" expanded="true" />
+            <element signature="e#1239#1653#0" expanded="true" />
+            <element signature="e#1713#2072#0" expanded="true" />
+            <element signature="e#2135#2311#0" expanded="true" />
+            <element signature="e#2370#2700#0" expanded="true" />
+            <element signature="e#2758#2898#0" expanded="true" />
+            <element signature="e#2954#3465#0" expanded="true" />
+            <element signature="e#3526#4065#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
