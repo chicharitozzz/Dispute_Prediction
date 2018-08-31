@@ -2,7 +2,7 @@
 # @Author : Chicharito_Ron
 # @File : predapi.py
 # @Software: PyCharm Community Edition
-# 对数据库中数据进行训练并建立模型，对下个月的纠纷数量进行回归预测，将结果写入库中。
+# 对数据库中数据进行训练并建立模型，对下个月的纠纷数量进行预测，将结果写入库中。
 
 import numpy as np
 import pandas as pd
@@ -108,7 +108,7 @@ class DisputePrediction:
         f_vec = ohe.transform(np.array(samples))
 
         # 预测
-        rf_pred = rf.predict(f_vec).astype(int)
+        rf_pred = np.around(rf.predict(f_vec)).astype(int)
 
         # 预测数据写入数据库
         res_li = np.concatenate((samples, rf_pred.reshape(-1, 1)), axis=1).tolist()
@@ -122,7 +122,7 @@ class DisputePrediction:
                 .format(r[4], r[0], r[1], r[2], r[3])
 
             cur.execute(sql)
-            print('更新', r)
+            print('插入', r)
 
         db.commit()
         cur.close()
@@ -166,8 +166,8 @@ class DisputePrediction:
 
 
 if __name__ == '__main__':
-    dbbase = 'pkdata1/pkdata1@192.168.0.13:1521/orcl'
-    # dbbase = sys.argv[1]
+    # dbbase = 'pkdata1/pkdata1@192.168.0.13:1521/orcl'
+    dbbase = sys.argv[1]
     dp = DisputePrediction(dbbase)
     pres = dp.main()
     print(pres[:10])

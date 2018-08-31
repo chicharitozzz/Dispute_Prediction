@@ -2,7 +2,6 @@
 # @Author : Chicharito_Ron
 # @File : arma_pred.py 
 # @Software: PyCharm Community Edition
-# 时间序列预测，ARIMA模型
 
 import numpy as np
 import pandas as pd

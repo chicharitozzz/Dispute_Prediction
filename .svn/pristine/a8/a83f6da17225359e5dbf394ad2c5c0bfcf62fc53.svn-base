@@ -2,7 +2,6 @@
 # @Author : Chicharito_Ron
 # @File : predapi.py 
 # @Software: PyCharm Community Edition
-# 纠纷预测API
 
 from flask import Flask, request
 from flask_cors import CORS
